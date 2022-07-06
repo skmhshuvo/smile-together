@@ -3,7 +3,36 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 6em;
+    line-height: 1.2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
 header {
     background-image: url(../images/hero_bg.jpg);
+    background-repeat: no-repeat;
+    padding: 10% 15%;
     text-align: center;
+    color: white;
+}
+
+header p {
+    padding: 0 20%;
+    margin-bottom: 50px;
+
+}
+
+.primary-btn {
+    background: #0be881;
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: 600;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 5px;
 }
