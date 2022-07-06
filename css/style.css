@@ -195,6 +195,42 @@ header h1 {
     cursor: pointer;
 }
 
+
+.blog {
+    background: url(../images/counter.png);
+    background-repeat: no-repeat;
+    padding: 5% 20%;
+}
+
+.blog > h2 {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.blog > h3 {
+    font-size: 1.5em;
+}
+
+.blog p {font-size: 1.2em;}
+
+
+.blog img {
+    width: 100%;
+}
+
+.blog-item {
+    background: #fff;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 2%;
+}
+
+.blog a {
+    color: #0be881;
+}
+
 footer {
     text-align: center;
     background: #222;
