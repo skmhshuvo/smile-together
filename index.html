@@ -25,16 +25,28 @@
         <h2>Select A Donation Plan</h2>
 
         <p>
-            Select a suitable donation plan for you below & let's Simile Together. We accept Master, Visa & Paypal
+            Select a suitable donation plan for you below & let's Simile Together <br>We accept Master, Visa & Paypal
         </p>
 
-        <ul>
-            <li><a href="#">100tk</a></li>
-            <li><a href="#">200tk</a></li>
-            <li><a href="#">500tk</a></li>
-            <li><a href="#">1000tk</a></li>
-            <li><a href="#">5000tk</a></li>
-        </ul>
+        <div class="price-box">
+            <div><a href="#">100tk</a></div>
+            <div><a href="#" id="active">200tk</a></div>
+            <div><a href="#">500tk</a></div>
+            <div><a href="#">1000tk</a></div>
+            <div><a href="#">5000tk</a></div>
+        </div>
+        
+        <div class="donate-amount">
+            <form action="#">
+                <div class="form-group">
+                    <input type="number" id="other-amount-input" placeholder="Other Amount (Taka)">
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Donate Now" class="primary-btn" id="other-amount-btn">
+                </div>
+                
+            </form>
+        </div>
     </section>
 
     <!-- Footer Section -->
