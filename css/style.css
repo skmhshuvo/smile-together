@@ -8,13 +8,21 @@ header, footer, section {
     display: block;
 }
 
+section, header {
+    margin-bottom: 7%;
+}
+
 h1 {
     font-size: 6em;
     line-height: 1.2em;
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 2em;
 }
 
 p, input {
@@ -32,11 +40,15 @@ form {
 
 .primary-btn {
     background: #0be881;
-    font-size: 1.7em;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 700;
     color: #fff;
-    padding: 20px 40px;
+    padding: 15px 20px;
     border-radius: 10px;
+}
+
+.flex {
+    display: flex;
 }
 
 /* Global Style End*/
@@ -45,20 +57,32 @@ form {
 header {
     background-image: url(../images/hero_bg.jpg);
     background-repeat: no-repeat;
-    padding: 10% 15%;
+    padding: 10% 0;
     text-align: center;
     color: white;
 }
 
-header p, .donation-plan p {
-    padding: 0 20%;
+header p {
+    padding: 0 30%;
     margin-bottom: 50px;
 
 }
 
+header h1 {
+    padding: 0 20%;
+
+}
+
+
 .donation-plan {
     color: #222;
     text-align: center;
+}
+
+.donation-plan p {
+    padding: 0 30%;
+    margin-bottom: 50px;
+
 }
 
 .price-box {
@@ -100,4 +124,42 @@ header p, .donation-plan p {
     height: 50px;
     border-style: hidden hidden groove hidden;
     outline: none;
+    color: #999;
+    font-size: 1.4em;
+}
+
+.donation-type {
+    padding: 0 10%;
+}
+
+
+.donation-type > h2, .donation-type > p {
+    padding: 0 25%;
+    text-align: center;
+}
+
+.donate-box {
+    margin: 15px;
+    border-radius: 10px;
+    padding: 60px 30px;
+}
+
+.donate-box img {
+    width: 20%;
+}
+
+.donate-box p {
+    color: #555;
+}
+
+#blue-box {
+    background: #00bfff1c;
+}
+
+#green-box {
+    background: #0be8817a;
+}
+
+#orange-box {
+    background: #fa807247;
 }
